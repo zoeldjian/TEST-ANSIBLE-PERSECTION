@@ -1,0 +1,7 @@
+- name: Hardening
+  hosts: alors
+  become: yes
+
+  roles:
+    - Ubuntu1804-CIS
+  
